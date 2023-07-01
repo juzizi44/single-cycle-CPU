@@ -9,7 +9,7 @@ c)	将C程序编译为机器码写入COE文件，在Vivado行为仿真中正确�
 d)	编写单独的RISC-V汇编程序来调用C语言程序，解决栈指针非法访问的问题。
 ## 设计图
 设计思路
-![image](https://github.com/juzizi44/single-cycle-CPU/blob/master/vivado_CPU.png)
+![image](https://github.com/juzizi44/single-cycle-CPU/blob/master/design.png)
 vidado导出
 ![image](https://github.com/juzizi44/single-cycle-CPU/blob/master/vivado_CPU.png)
 ## 模块设计：
