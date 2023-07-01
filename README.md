@@ -1,8 +1,11 @@
 # single-cycle-CPU
 ## 本次课程设计完成以下工作
 a)	实现了RISC-V架构RV32I指令集的CPU，频率为55.6MHZ，并通过了RISC-V官方指令集测试。该CPU实现了RV32I指令集47条指令中的除CSR、ECALL等操作系统相关指令外所有的用户程序指令，一共37条，理论上可以运行任何没有中断与异常的程序。
+
 b)	编译了RISC-V GNU Compiler Toolchain并在Spike模拟器上运行了C程序；
+
 c)	将C程序编译为机器码写入COE文件，在Vivado行为仿真中正确运行。
+
 d)	编写单独的RISC-V汇编程序来调用C语言程序，解决栈指针非法访问的问题。
 ## 模块设计：
 总共分为7个模块，分别是：instMem（指令寄存器）、PcAdd （控制PC跳转）、ALU（算数逻辑单元）、DataMem（数据存储器）、RegFile（寄存器）、Top（顶层模块）、Decode（译码器）
